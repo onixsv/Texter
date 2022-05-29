@@ -1,0 +1,15 @@
+name: Texter
+author: alvin0319
+main: Texter\Texter
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  texter:
+    description: 텍스터 명령어입니다.
+    permission: texter.command
+
+permissions:
+  texter.command:
+    description: A
+    default: op
